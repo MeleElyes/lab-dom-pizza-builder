@@ -63,7 +63,7 @@ function renderGreenPeppers() {
 
 function renderWhiteSauce() {
   if (!state.whiteSauce) {
-    document.querySelector('.sauce').className = 'sauce';
+    document.querySelector('.sauce').classList.remove('sauce-white');
   } else {
     document.querySelector('.sauce').classList.add('sauce-white');
   }
